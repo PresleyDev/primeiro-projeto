@@ -1,0 +1,165 @@
+body {
+    background-color: var(--body);
+    font-family: 'Figtree', system-ui;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main .card {
+    display: flex;
+    flex-direction: column;
+    height: 416px;
+    width: 308px;
+    border: solid 1px;
+    background-color: var(--fundo-main);
+    border-radius: 18px;
+    box-shadow: 10px 5px 5px hsl(0, 0%, 0%);
+}
+
+.main .card .firt-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 270px;
+    border-radius: 10px;
+    margin: 18px 16px;
+}
+
+.main .card .sub1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: var(--body);
+    height: 21px;
+    width: 59px;
+    margin: 3px 16px;
+    padding: 10px 0px;
+}
+
+.main .card .paragrafo-1 {
+    font-size: 11px;
+    font-weight: 500;
+    margin: 12px 19px;
+    
+}
+
+.main .card .titulo-h1 {
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.main .card .paragrafo-2 {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 17px;
+    padding: 14px 2px;
+}
+
+.main .card .div-perfil {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.main .card .foto-perfil {
+    height: 31px;
+    width: 31px;
+    margin: 0 17px;
+}
+
+.main .card .nome-perfil {
+    font-size: 12px;
+    font-weight: 800;
+}   
+
+@media (min-width: 375px) {
+    body {
+        background-color: var(--body);
+        font-family: 'Figtree', system-ui;
+    }
+    
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    
+    .main .card {
+        display: flex;
+        flex-direction: column;
+        height: 416px;
+        width: 308px;
+        border: solid 1px;
+        background-color: var(--fundo-main);
+        border-radius: 18px;
+        box-shadow: 10px 5px 5px hsl(0, 0%, 0%);
+    }
+    
+    .main .card .firt-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 160px;
+        width: 270px;
+        border-radius: 10px;
+        margin: 18px 16px;
+    }
+    
+    .main .card .sub1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 800;
+        background-color: var(--body);
+        height: 21px;
+        width: 59px;
+        margin: 3px 16px;
+        padding: 10px 0px;
+    }
+    
+    .main .card .paragrafo-1 {
+        font-size: 11px;
+        font-weight: 500;
+        margin: 12px 16px;
+        
+    }
+    
+    .main .card .titulo-h1 {
+        font-size: 20px;
+        margin: 0 20px;
+    }
+    
+    .main .card .paragrafo-2 {
+        font-size: 13px;
+        font-weight: 500;
+        margin: 0 16px;
+        padding: 14px 2px;
+        line-height: 18px;
+    }
+    
+    .main .card .div-perfil {
+        display: flex;
+        align-items: center;
+        padding: 5px 0;
+    }
+    
+    .main .card .foto-perfil {
+        height: 31px;
+        width: 31px;
+    }
+    
+    .main .card .nome-perfil {
+        font-size: 12px;
+        font-weight: 800;
+    }  
+}
